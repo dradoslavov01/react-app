@@ -1,9 +1,13 @@
 import style from './Menu.module.css'
 
-const MenuItem = (props) => {
+const MenuItem = ({
+    id, 
+    onClick, 
+    children,
+}) => {
     return (
         <li className={style.listItem}>
-            <a href="/">{props.children}</a>
+            <a href="#" onClick={() => onClick(id)}>{children}</a>
         </li>
     );
 }

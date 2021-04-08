@@ -1,7 +1,7 @@
 import style from './Header.module.css';
 import NavigationItem from '../NavigationItem/NavigationItem';
 
-const items = [
+export const items = [
     { id: "1", content: 'Going to 1' },
     { id: "2", content: 'Going to 2' },
     { id: "3", content: 'Going to 3' },

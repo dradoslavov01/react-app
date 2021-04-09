@@ -1,8 +1,8 @@
 import style from './Menu.module.css'
 
 const MenuItem = ({
-    id, 
-    onClick, 
+    id,
+    onClick,
     children,
 }) => {
     return (
